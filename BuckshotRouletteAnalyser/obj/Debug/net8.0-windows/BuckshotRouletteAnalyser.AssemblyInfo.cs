@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuckshotRouletteAnalyser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a6b24f0537d280791e94169e51a1c842d812abc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fa047a81db5cde6f62b5b72261413a70c2ba7bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuckshotRouletteAnalyser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuckshotRouletteAnalyser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

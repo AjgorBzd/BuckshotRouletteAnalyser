@@ -3,7 +3,6 @@ C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnaly
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\bin\Debug\net8.0-windows\BuckshotRouletteAnalyser.runtimeconfig.json
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\bin\Debug\net8.0-windows\BuckshotRouletteAnalyser.dll
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\bin\Debug\net8.0-windows\BuckshotRouletteAnalyser.pdb
-C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.Form1.resources
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.csproj.GenerateResource.cache
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.AssemblyInfoInputs.cache
@@ -15,3 +14,5 @@ C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnaly
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.pdb
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.genruntimeconfig.cache
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\ref\BuckshotRouletteAnalyser.dll
+C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.MainForm.resources
+C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.Properties.Resources.resources
