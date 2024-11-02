@@ -23,7 +23,7 @@ namespace BuckshotRouletteAnalyser.Resources
             Corners[2] = new Point(x3, y3);
             Corners[3] = new Point(x4, y4);
 
-            Item = new Nothing("NOTHING");
+            Item = new Nothing();
         }
     }
 }

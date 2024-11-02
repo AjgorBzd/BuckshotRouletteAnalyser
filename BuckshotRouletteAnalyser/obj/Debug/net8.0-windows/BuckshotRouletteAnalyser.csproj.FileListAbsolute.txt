@@ -16,3 +16,21 @@ C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnaly
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\ref\BuckshotRouletteAnalyser.dll
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.MainForm.resources
 C:\Users\Igor Bzdwka\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.Properties.Resources.resources
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\bin\Debug\net8.0-windows\BuckshotRouletteAnalyser.exe
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\bin\Debug\net8.0-windows\BuckshotRouletteAnalyser.deps.json
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\bin\Debug\net8.0-windows\BuckshotRouletteAnalyser.runtimeconfig.json
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\bin\Debug\net8.0-windows\BuckshotRouletteAnalyser.dll
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\bin\Debug\net8.0-windows\BuckshotRouletteAnalyser.pdb
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.MainForm.resources
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.Properties.Resources.resources
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.csproj.GenerateResource.cache
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.AssemblyInfoInputs.cache
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.AssemblyInfo.cs
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.csproj.CoreCompileInputs.cache
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.sourcelink.json
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.dll
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\refint\BuckshotRouletteAnalyser.dll
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.pdb
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\BuckshotRouletteAnalyser.genruntimeconfig.cache
+C:\Users\igorb\source\repos\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\BuckshotRouletteAnalyser\obj\Debug\net8.0-windows\ref\BuckshotRouletteAnalyser.dll

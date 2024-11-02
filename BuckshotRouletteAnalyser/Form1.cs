@@ -1,17 +1,24 @@
 using System.Windows.Forms;
 using System.IO;
+using System.Linq;
 using BuckshotRouletteAnalyser.Resources;
+using BuckshotRouletteAnalyser.Extensions;
 using BuckshotRouletteAnalyser.Items;
 namespace BuckshotRouletteAnalyser
 {
     public partial class MainForm : Form
     {
+        private static Random random = new Random();
 
         int currentLiveBulletsIndex = 1;
         int currentBlankBulletsIndex = 1;
+        int selectedItemSlot = -1;
+
+        bool isItemSlotSelected = false;
 
         List<ItemSlot> itemSlots = new List<ItemSlot>();
         List<Item> allItems = new List<Item>();
+        private Dictionary<Type, int> itemTypeToIndexMap = new Dictionary<Type, int>();
 
         private ItemComboBox itemComboBox;
 
@@ -21,8 +28,10 @@ namespace BuckshotRouletteAnalyser
 
             itemComboBox = new ItemComboBox
             {
-                Dock = DockStyle.Fill
+                Dock = DockStyle.Fill,
+                ItemHeight = 50
             };
+            itemComboBox.SelectedIndexChanged += itemComboBox_SelectedIndexChanged;
         }
 
         private void StartButton_Click(object sender, EventArgs e)
@@ -65,7 +74,7 @@ namespace BuckshotRouletteAnalyser
             #pragma warning disable CS8602 // Dereference of a possibly null reference.
             string projectDirectory = Directory.GetParent(path: AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName;
             #pragma warning restore CS8602 // Dereference of a possibly null reference.
-            string imagePath = Path.Combine(projectDirectory, "Resources", "table.jpg");
+            string imagePath = Path.Combine(projectDirectory, "Resources", "table_resized_fulldim.png");
             MainPictureBox.Image = Image.FromFile(imagePath);
 
             // Assigning item slots to their x-y coordinates
@@ -83,40 +92,46 @@ namespace BuckshotRouletteAnalyser
             itemSlots.Add(new ItemSlot(8, 533, 623, 665, 517, 340, 340, 259, 259));
 
             // top-left 2x2 rectangle
-            itemSlots.Add(new ItemSlot(9, 240, 305, 324, 267, 210, 210, 167, 167));
-            itemSlots.Add(new ItemSlot(10, 305, 369, 378, 324, 210, 210, 167, 167));
-            itemSlots.Add(new ItemSlot(11, 324, 378, 387, 339, 167, 167, 130, 130));
-            itemSlots.Add(new ItemSlot(12, 267, 324, 339, 289, 167, 167, 130, 130));
+            itemSlots.Add(new ItemSlot(9, 240, 305, 324, 267, 215, 215, 172, 172));
+            itemSlots.Add(new ItemSlot(10, 305, 369, 378, 324, 215, 215, 172, 172));
+            itemSlots.Add(new ItemSlot(11, 324, 378, 387, 339, 172, 172, 135, 135));
+            itemSlots.Add(new ItemSlot(12, 267, 324, 339, 289, 172, 172, 135, 135));
 
             // top-right 2x2 rectangle
-            itemSlots.Add(new ItemSlot(13, 507, 570, 553, 498, 210, 210, 167, 167));
-            itemSlots.Add(new ItemSlot(14, 570, 636, 608, 553, 210, 210, 167, 167));
-            itemSlots.Add(new ItemSlot(15, 553, 608, 588, 539, 167, 167, 130, 130));
-            itemSlots.Add(new ItemSlot(16, 498, 553, 539, 491, 167, 167, 130, 130));
+            itemSlots.Add(new ItemSlot(13, 507, 570, 553, 498, 215, 215, 172, 172));
+            itemSlots.Add(new ItemSlot(14, 570, 636, 608, 553, 215, 215, 172, 172));
+            itemSlots.Add(new ItemSlot(15, 553, 608, 588, 539, 172, 172, 135, 135));
+            itemSlots.Add(new ItemSlot(16, 498, 553, 539, 491, 172, 172, 135, 135));
 
             //TestRectangleDetection(0);
 
-            /*for(int i = 0; i < 16; i++)
+            /*for (int i = 0; i < 16; i++)
             {
                 TestRectangleDetection(i);
             }*/
 
             // loading all items to the general item list
-            allItems.Add(new Nothing("NOTHING"));
-            allItems.Add(new Adrenaline("ADRENALINE"));
-            allItems.Add(new Beer("BEER"));
-            allItems.Add(new BurnerPhone("BURNER PHONE"));
-            allItems.Add(new Cigarettes("CIGARETTES"));
-            allItems.Add(new ExpiredMedicine("EXPIRED MEDICINE"));
-            allItems.Add(new Handcuffs("HANDCUFFS"));
-            allItems.Add(new Handsaw("HAND SAW"));
-            allItems.Add(new Inverter("INVERTER"));
-            allItems.Add(new MagnifyingGlass("MAGNIFYING GLASS"));
+            allItems.Add(new Nothing());
+            allItems.Add(new Adrenaline());
+            allItems.Add(new Beer());
+            allItems.Add(new BurnerPhone());
+            allItems.Add(new Cigarettes());
+            allItems.Add(new ExpiredMedicine());
+            allItems.Add(new Handcuffs());
+            allItems.Add(new Handsaw());
+            allItems.Add(new Inverter());
+            allItems.Add(new MagnifyingGlass());
 
+            for(int i = 0; i < allItems.Count; i++)
+            {
+                itemTypeToIndexMap.Add(allItems[i].GetType(), i);
+            }
 
-            itemComboBox.Items.Add(new Adrenaline("ADRENALINE"));
-            //itemComboBox.Items.AddRange(allItems.ToArray());
+            //itemComboBox.Items.Add(new Adrenaline("ADRENALINE"));
+            itemComboBox.Items.AddRange(allItems.ToArray());
             ItemsLayoutPanel.Controls.Add(itemComboBox, 0, 1);
+
+            itemComboBox.Enabled = false;
         }
 
         private void LiveBulletsComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -156,6 +171,14 @@ namespace BuckshotRouletteAnalyser
 
         }
 
+        private void itemComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(itemComboBox.SelectedIndex != -1 && selectedItemSlot != -1)
+            {
+                itemSlots[selectedItemSlot].Item = allItems[itemComboBox.SelectedIndex];
+            }
+        }
+
         private void ResetButton_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you want to reset the table?", "Reset the table", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -179,21 +202,35 @@ namespace BuckshotRouletteAnalyser
                 Point clickPoint = new Point(e.X, e.Y);
                 bool found = false;
 
-                foreach (var slot in itemSlots)
+                foreach (var (slot, index) in itemSlots.WithIndex())
                 {
                     // Divide the rectangle into two triangles (Corners[0], Corners[1], Corners[2]) and (Corners[0], Corners[2], Corners[3])
                     if (IsPointInTriangle(clickPoint, slot.Corners[0], slot.Corners[1], slot.Corners[2]) ||
                         IsPointInTriangle(clickPoint, slot.Corners[0], slot.Corners[2], slot.Corners[3]))
                     {
-                        MessageBox.Show($"You clicked on rectangle {slot.Id}.");
+                        //MessageBox.Show($"You clicked on rectangle {slot.Id}.");
+                        ItemLabel.Text = $"Select item for slot nr {slot.Id}:";
+                        selectedItemSlot = index;
                         found = true;
+                        itemComboBox.Enabled = true;
+                        isItemSlotSelected = true;
+                        if(itemTypeToIndexMap.TryGetValue(slot.Item.GetType(), out int idx))
+                        {
+                            itemComboBox.SelectedIndex = idx;
+                        }
+
                         break;
                     }
                 }
 
                 if (!found)
                 {
-                    MessageBox.Show("Didn't press any rectangle");
+                    //MessageBox.Show("Didn't press any rectangle");
+                    ItemLabel.Text = "";
+                    itemComboBox.SelectedIndex = -1;
+                    isItemSlotSelected = false;
+                    selectedItemSlot = -1;
+                    itemComboBox.Enabled = false;
                 }
             }
         }
@@ -228,6 +265,11 @@ namespace BuckshotRouletteAnalyser
             ItemSlot testRectangle = itemSlots[itemSlotIndex];
             Point[] corners = testRectangle.Corners;
 
+            // select a random color for a given rectangle
+            int red = random.Next(0, 256); // Random value for red (0-255)
+            int green = random.Next(0, 256); // Random value for green (0-255)
+            int blue = random.Next(0, 256); // Random value for blue (0-255)
+
             // Iterate through each pixel in the image
             for (int y = 0; y < testBitmap.Height; y++)
             {
@@ -241,7 +283,7 @@ namespace BuckshotRouletteAnalyser
                     {
                         // Color the pixel red with 50% opacity
                         Color originalColor = testBitmap.GetPixel(x, y);
-                        Color redOverlay = Color.FromArgb(128, 255, 0, 0); // 50% opacity red
+                        Color redOverlay = Color.FromArgb(128, red, green, blue); // 50% opacity red
                         Color blendedColor = BlendColors(originalColor, redOverlay);
 
                         testBitmap.SetPixel(x, y, blendedColor);

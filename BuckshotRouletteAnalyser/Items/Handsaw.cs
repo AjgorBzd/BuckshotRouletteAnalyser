@@ -8,9 +8,14 @@ namespace BuckshotRouletteAnalyser.Items
 {
     public class Handsaw : Item
     {
-        public Handsaw(string n)
+        public Handsaw()
         {
-            Name = n;
+            Name = "HAND SAW";
+            #pragma warning disable CS8602 // Dereference of a possibly null reference.
+            string projectDirectory = Directory.GetParent(path: AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName;
+            #pragma warning restore CS8602 // Dereference of a possibly null reference.
+            string imagePath = Path.Combine(projectDirectory, "Resources", "adrenaline.png");
+            Image = Image.FromFile(imagePath);
         }
     }
 }

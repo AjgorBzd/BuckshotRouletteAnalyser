@@ -1,30 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\",
+  "WorkspaceRootPath": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igor bzdwka\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\itemcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\itemcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igor bzdwka\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\buckshotrouletteanalyser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igor bzdwka\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\extensions\\ienumerableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\extensions\\ienumerableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igor bzdwka\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\adrenaline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\buckshotrouletteanalyser\\resources\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\resources\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\nothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\nothing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\magnifyingglass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\magnifyingglass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\inverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\inverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\handsaw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\handsaw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\handcuffs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\handcuffs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\expiredmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\expiredmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\cigarettes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\cigarettes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\burnerphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\burnerphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\buckshotrouletteanalyser\\items\\adrenaline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\adrenaline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igor bzdwka\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igor bzdwka\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\resources\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\resources\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\buckshotrouletteanalyser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|c:\\users\\igorb\\source\\repos\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\buckshotrouletteanalyser\\itemcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\itemcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\buckshotrouletteanalyser\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC802FDA-CE96-44FB-B8CA-8DA1BE41A498}|BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj|solutionrelative:buckshotrouletteanalyser\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +78,226 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEnumerableExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Extensions\\IEnumerableExtensions.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Extensions\\IEnumerableExtensions.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Extensions\\IEnumerableExtensions.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Extensions\\IEnumerableExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T22:11:03.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Nothing.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Nothing.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\Nothing.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Nothing.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\Nothing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:58:08.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MagnifyingGlass.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\MagnifyingGlass.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\MagnifyingGlass.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\MagnifyingGlass.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\MagnifyingGlass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:51:18.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inverter.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Inverter.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\Inverter.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Inverter.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\Inverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:51:17.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Handsaw.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Handsaw.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\Handsaw.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Handsaw.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\Handsaw.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:51:17.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Handcuffs.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Handcuffs.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\Handcuffs.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Handcuffs.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\Handcuffs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:51:16.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExpiredMedicine.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\ExpiredMedicine.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\ExpiredMedicine.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\ExpiredMedicine.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\ExpiredMedicine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:51:15.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cigarettes.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Cigarettes.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\Cigarettes.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Cigarettes.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\Cigarettes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:51:15.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BurnerPhone.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\BurnerPhone.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\BurnerPhone.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\BurnerPhone.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\BurnerPhone.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:51:14.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Beer.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Beer.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\Beer.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Beer.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\Beer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:51:13.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Adrenaline.cs",
-              "DocumentMoniker": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Adrenaline.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Adrenaline.cs",
               "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\Adrenaline.cs",
-              "ToolTip": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Adrenaline.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Adrenaline.cs",
               "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\Adrenaline.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABZAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T13:11:01.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Item.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Item.cs",
               "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Items\\Item.cs",
-              "ToolTip": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Item.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Items\\Item.cs",
               "RelativeToolTip": "BuckshotRouletteAnalyser\\Items\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:59:42.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T12:59:42.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "ItemComboBox.cs",
-              "DocumentMoniker": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\ItemComboBox.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\ItemComboBox.cs",
               "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\ItemComboBox.cs",
-              "ToolTip": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\ItemComboBox.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\ItemComboBox.cs",
               "RelativeToolTip": "BuckshotRouletteAnalyser\\ItemComboBox.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAqAAAAAAAAAA==",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T12:57:24.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ItemSlot.cs",
-              "DocumentMoniker": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Resources\\ItemSlot.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Resources\\ItemSlot.cs",
               "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Resources\\ItemSlot.cs",
-              "ToolTip": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Resources\\ItemSlot.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Resources\\ItemSlot.cs",
               "RelativeToolTip": "BuckshotRouletteAnalyser\\Resources\\ItemSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwBwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T12:16:37.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Form1.cs",
               "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Form1.cs",
-              "ToolTip": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Form1.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Form1.cs",
               "RelativeToolTip": "BuckshotRouletteAnalyser\\Form1.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwBUAAAArAAAAAAAAAA==",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAIwK8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T12:05:55.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Form1.cs",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Program.cs",
+              "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Program.cs",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Program.cs",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:36:06.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Form1.cs",
               "RelativeDocumentMoniker": "BuckshotRouletteAnalyser\\Form1.cs",
-              "ToolTip": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Form1.cs [Design]",
-              "RelativeToolTip": "BuckshotRouletteAnalyser\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\Form1.cs [Projekt]",
+              "RelativeToolTip": "BuckshotRouletteAnalyser\\Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T22:42:26.165Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Projekt]"
             }
           ]
         }

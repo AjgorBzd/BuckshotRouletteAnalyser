@@ -8,9 +8,9 @@ namespace BuckshotRouletteAnalyser.Items
 {
     public class Adrenaline : Item
     {
-        public Adrenaline(string n) 
+        public Adrenaline() 
         {
-            Name = n;
+            Name = "ADRENALINE";
             #pragma warning disable CS8602 // Dereference of a possibly null reference.
             string projectDirectory = Directory.GetParent(path: AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName;
             #pragma warning restore CS8602 // Dereference of a possibly null reference.

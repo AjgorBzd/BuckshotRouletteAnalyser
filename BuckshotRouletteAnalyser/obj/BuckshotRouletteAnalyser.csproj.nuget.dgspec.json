@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj": {}
+    "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj": {
+    "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj",
+        "projectUniqueName": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj",
         "projectName": "BuckshotRouletteAnalyser",
-        "projectPath": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj",
-        "packagesPath": "C:\\Users\\Igor Bzdwka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Igor Bzdwka\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\obj\\",
+        "projectPath": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser.csproj",
+        "packagesPath": "C:\\Users\\igorb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\igorb\\source\\repos\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\BuckshotRouletteAnalyser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Igor Bzdwka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\igorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Igor Bzdwka\\Downloads\\FlightTrackerGUI_dotnet8": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

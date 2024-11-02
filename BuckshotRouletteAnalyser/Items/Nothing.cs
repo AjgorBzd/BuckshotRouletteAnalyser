@@ -8,9 +8,14 @@ namespace BuckshotRouletteAnalyser.Items
 {
     public class Nothing : Item
     {
-        public Nothing(string n)
+        public Nothing()
         {
-            Name = n;
+            Name = "NOTHING";
+            #pragma warning disable CS8602 // Dereference of a possibly null reference.
+            string projectDirectory = Directory.GetParent(path: AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName;
+            #pragma warning restore CS8602 // Dereference of a possibly null reference.
+            string imagePath = Path.Combine(projectDirectory, "Resources", "nothing.png");
+            Image = Image.FromFile(imagePath);
         }
     }
 }
