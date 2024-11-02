@@ -286,15 +286,14 @@
             // 
             // ItemsLayoutPanel
             // 
-            ItemsLayoutPanel.ColumnCount = 2;
-            ItemsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            ItemsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            ItemsLayoutPanel.ColumnCount = 1;
+            ItemsLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             ItemsLayoutPanel.Dock = DockStyle.Fill;
             ItemsLayoutPanel.Location = new Point(889, 3);
             ItemsLayoutPanel.Name = "ItemsLayoutPanel";
             ItemsLayoutPanel.RowCount = 2;
-            ItemsLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            ItemsLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            ItemsLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            ItemsLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
             ItemsLayoutPanel.Size = new Size(290, 676);
             ItemsLayoutPanel.TabIndex = 3;
             // 

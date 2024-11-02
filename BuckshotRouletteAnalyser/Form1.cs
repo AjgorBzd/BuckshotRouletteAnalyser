@@ -1,6 +1,7 @@
 using System.Windows.Forms;
 using System.IO;
 using BuckshotRouletteAnalyser.Resources;
+using BuckshotRouletteAnalyser.Items;
 namespace BuckshotRouletteAnalyser
 {
     public partial class MainForm : Form
@@ -10,10 +11,18 @@ namespace BuckshotRouletteAnalyser
         int currentBlankBulletsIndex = 1;
 
         List<ItemSlot> itemSlots = new List<ItemSlot>();
+        List<Item> allItems = new List<Item>();
+
+        private ItemComboBox itemComboBox;
 
         public MainForm()
         {
             InitializeComponent();
+
+            itemComboBox = new ItemComboBox
+            {
+                Dock = DockStyle.Fill
+            };
         }
 
         private void StartButton_Click(object sender, EventArgs e)
@@ -91,6 +100,23 @@ namespace BuckshotRouletteAnalyser
             {
                 TestRectangleDetection(i);
             }*/
+
+            // loading all items to the general item list
+            allItems.Add(new Nothing("NOTHING"));
+            allItems.Add(new Adrenaline("ADRENALINE"));
+            allItems.Add(new Beer("BEER"));
+            allItems.Add(new BurnerPhone("BURNER PHONE"));
+            allItems.Add(new Cigarettes("CIGARETTES"));
+            allItems.Add(new ExpiredMedicine("EXPIRED MEDICINE"));
+            allItems.Add(new Handcuffs("HANDCUFFS"));
+            allItems.Add(new Handsaw("HAND SAW"));
+            allItems.Add(new Inverter("INVERTER"));
+            allItems.Add(new MagnifyingGlass("MAGNIFYING GLASS"));
+
+
+            itemComboBox.Items.Add(new Adrenaline("ADRENALINE"));
+            //itemComboBox.Items.AddRange(allItems.ToArray());
+            ItemsLayoutPanel.Controls.Add(itemComboBox, 0, 1);
         }
 
         private void LiveBulletsComboBox_SelectedIndexChanged(object sender, EventArgs e)
